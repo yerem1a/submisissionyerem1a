@@ -66,7 +66,7 @@ def visualisasi_peminjaman(peminjaman_per_hari, peminjaman_per_jam):
 
 
 # Memuat dataset
-df_combined = pd.read_csv('dashboard/main_data.csv')  # Gantilah dengan nama sebenarnya
+df_combined = pd.read_csv('main_data.csv')  # Gantilah dengan nama sebenarnya
 
 # Judul aplikasi
 st.title("Analisis Data Bike Sharing")
